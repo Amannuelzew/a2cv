@@ -80,7 +80,7 @@ export function AddFoodForm() {
     e.preventDefault()
     if (validateForm()) {
       console.log("Form submitted:", formData)
-      // Handle form submission
+      //submit
     }
   }
 
@@ -176,14 +176,14 @@ export function AddFoodForm() {
           <div className="flex gap-4 pt-4">
             <button
               type="submit"
-              className="flex-1 px-6 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition-colors"
+              className="flex-1 px-6 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600 "
             >
               Save food
             </button>
             <button
               type="button"
               onClick={handleCancel}
-              className="px-6 py-2 text-gray-600 hover:text-gray-800 transition-colors"
+              className="px-6 py-2 text-gray-600 hover:text-gray-800 "
             >
               Cancel
             </button>

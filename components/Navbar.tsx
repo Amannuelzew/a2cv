@@ -11,12 +11,12 @@ export function Navbar() {
             </Link>
           </div>
           <div className="flex items-center space-x-4">
-            <Link href="/" className="text-gray-700 hover:text-orange-500 transition-colors">
+            <Link href="/" className="text-gray-700 hover:text-orange-500 ">
               Home
             </Link>
             <Link
               href="/create"
-              className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors"
+              className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 "
             >
               Add Food
             </Link>

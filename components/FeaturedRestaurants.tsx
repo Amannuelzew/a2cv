@@ -10,7 +10,7 @@ export function FeaturedRestaurants() {
       status:"Open"
     },
     {
-      name: "Natural Avocado Smoothie",
+      name: "Natural Avocado",
       rating: 4.8,
       image: "/placeholder.svg?height=200&width=200",
       category: "Drinks",
@@ -38,7 +38,7 @@ export function FeaturedRestaurants() {
       status:"Open"
     },
     {
-      name: "Natural Avocado Smoothie",
+      name: "Natural Avocado",
       rating: 4.8,
       image: "/placeholder.svg?height=200&width=200",
       category: "Drinks",

@@ -6,7 +6,33 @@ export function Footer() {
   return (
     <footer className="bg-zinc-900 text-zinc-100">
       <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-4">
+           {/* Contact Section */}
+           <div>
+            <h3 className="mb-4 text-lg font-semibold">Company</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="#" className="hover:text-orange-400">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-orange-400">
+                 Team
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-orange-400">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-orange-400">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
           {/* Contact Section */}
           <div>
             <h3 className="mb-4 text-lg font-semibold">Contact</h3>

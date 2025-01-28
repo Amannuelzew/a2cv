@@ -12,17 +12,14 @@ export interface RestaurantCardProps {
 
 export function RestaurantCard({ name, rating, image, category,status }: RestaurantCardProps) {
   return (
+    <div className="flex flex-col space-y-4">
     <div className="overflow-hidden rounded-xl border shadow">
-      {/* <Image
-        src={}
-        alt={name}
-        width={300}
-        height={200}
-        className="h-48 w-full object-cover"
-      ,/> */}
-<div className="w-[300px] h-[300px] bg-gray-700"></div>
-      <div className="p-">
-        <div className="mb-2 flex items-center justify-between">
+    <div className="w-[300px] h-[300px] bg-gray-700"></div>
+    </div>
+      <div className="flex gap-2">
+       <div className="w-[30px] h-[30px] bg-gray-700"></div>
+       <div>
+       <div className="mb-2 flex items-center justify-between">
           <h3 className="font-semibold">{name}</h3>
           <span className="rounded-full bg-primary/10 px-2 py-1 text-xs font-medium text-primary">★ {rating}</span>
         </div>
@@ -30,8 +27,9 @@ export function RestaurantCard({ name, rating, image, category,status }: Restaur
         <p className={`text-sm font-medium ${status === "Open" ? "text-green-600" : "text-red-600"}`}>
           {status.charAt(0).toUpperCase() + status.slice(1)}
         </p>
+       </div>
       </div>
-    </div>
+      </div>
   )
 }
 
